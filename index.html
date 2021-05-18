@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grigoris Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://images.emojiterra.com/google/android-nougat/512px/1f1ec.png">
+    <link href="https://www.formspree.io">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="..\css\home.css">
+    <link rel="stylesheet" type="text/css" href="..\css\about.css">
+    <link rel="stylesheet" type="text/css" href="..\css\portfolio.css">
+    <link rel="stylesheet" type="text/css" href="..\css\skills.css">
+    <link rel="stylesheet" type="text/css" href="..\css\contact.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <header>
+        <div class="container">
+            <div class="left">
+                <div class="navbar-brand">
+                    <a href="#home"><span id="grigoris">G</span>rigoris</a>
+                </div>
+                <div class="hm-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li class="navbar-links"><a href="#home" id="toHome">Home</a></li>
+                        <li class="navbar-links"><a href="#about" id="toAbout">About</a></li>
+                        <li class="navbar-links"><a href="#projects" id="toProjects">Projects</a></li>
+                        <li class="navbar-links"><a href="#skills" id="toSkills">Skills</a></li>
+                        <li class="navbar-links"><a href="#contact" id="toContact">Contact</a></li>
+                        <li class="navbar-links"><a href="./pages/FAQs.html" id="toFaqs">FAQs</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.hm-menu').click(function () {
+                    $('header').toggleClass('h-100');
+                    $('.hm-menu span').toggleClass('hm-100');
+                    $('html').toggleClass('over-x');
+                });
+
+                $('header nav a').click(function () {
+                    $('header').removeClass('h-100');
+                    $('.hm-menu span').removeClass('hm-100');
+                    $('html').removeClass('over-x');
+                });
+            });
+        </script>
+    </header>
+
+    <section id="home">
+        <div class="home-section">
+            <div class="home-header">
+                <h1>Welcome to my Portfolio</h1>
+            </div>
+            <div class="home-left">
+                <div class="home-text">
+                    <p>Hello, my name is Grigoris Kokozidis and i`m from Cyprus. <br> <br> I`m a strongly motivated
+                        coder with excellent communication skills. Looking to create value for customers with the magic
+                        of programming.<br><br> If you want to get
+                        in touch with me find my social media links below or just drop me a <span><a href="#contact"
+                                class="message">message</a><span style='font-size:20px;'>&#128512;</span></span>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/grigorios-kokozides-650113113" target="_blank"
+                        class="fa fa-linkedin"></a>
+                    <a href="https://www.instagram.com/grego.code/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://github.com/Gregory95" target="_blank" class="fa fa-github"></a>
+                    <a href="mailto:kokozides.g@outlook.com" class="fa fa-envelope"></a>
+                </div>
+            </div>
+            <div class="home-right">
+                <span><img src="..\images\me.jpg"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-section">
+            <h2 id="aboutme" class="entity-title section-title">Who am i</h2>
+            <p>
+                In 2013 i graduated from high school and went to University of Nicosia. In university i had the
+                opportunity to see how a software works. How you can give commands by typing some lines of code. I got
+                this feeling that every creator gets when it comes to imagination and make the ideas happen in real
+                life. <br><br> As the Mrs. Gabe, the creator of Valve, said <strong>The programmers of tomorrow are the
+                    wizards of the future.</strong>
+            </p>
+            <div>
+                <a class="btnfos btnfos-1" href="./Grigorios's Resume.pdf" target="_blank">
+                    <svg>
+                        <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                    </svg>
+                    My Resume
+                </a>
+            </div>
+            <h3 class="experience">Experience & Career</h3>
+            <div class="timeline">
+                <div class="timeline__group">
+                    <span class="timeline__year">2016</span>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                            <span class="timeline__day">15</span>
+                            <span class="timeline__month">Jul</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>As a student i was working in beautiful coffee restaurant in Larnaca.
+                                    <br>I was working as a barista, cashier and customer service. I always cared about
+                                    the quality of the product we were selling to our customers. To create a big smile
+                                    on your customers face you have to create first a warm and
+                                    friendly enviroment. Me and my team had always this goal in our minds and the result
+                                    was a place full of happy people.
+                                    <br> Duration: 3 years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                            <span class="timeline__day">15</span>
+                            <span class="timeline__month">Oct</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>An opportunity is given to me to work in University as computer lab assistant. I have
+                                    already working in the coffee restaurant but this job could bring me closer to Tech
+                                    world that i was dreaming to be. So i accept this
+                                    job and worked for almost 4 months as Computer Lab assistant. The time period i
+                                    worked in this position seem little but it gave some knowledge about computer
+                                    hardware that i found really interesting and helpfull.
+                                    <br>
+                                    Duration: 4 months.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline__group">
+                    <span class="timeline__year">2019</span>
+                    <div class="timeline__box">
+                        <div class="timeline__date">
+                            <span class="timeline__day">4</span>
+                            <span class="timeline__month">Mar</span>
+                        </div>
+                        <div class="timeline__post">
+                            <div class="timeline__content">
+                                <p>My first professional job opportunity came in 4 of March 2019. I got an opportunity
+                                    to work in Alpha Bank Cyprus as business analyst. I joined in an amazing team that
+                                    works on projects that will create a new digital expirience
+                                    for Bank`s customers.
+                                    <br>I was working on an extremely advanced project. PSD2 (<strong>P</strong>ayment
+                                    <strong>S</strong>ervices <strong>D</strong>irective <strong>2</strong>) is the
+                                    second Payment Services Directive, designed by the countries
+                                    of the European Union. It could revolutionise the payments industry, affecting
+                                    everything from the way we pay online, to what information we see when making a
+                                    payment.
+                                    <br>Based on my passion on software development i was responsible to quide the
+                                    programmers to create the best API products that Alpha Bank Cyprus will provide to
+                                    the Third Party Provides (TPP).
+                                    <br>
+                                    Duration: 1 year and 6 months.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="project-section">
+            <h1 class="section-title">Portfolio</h1>
+            <h5 class="nickname">{ grego.code }</h5>
+            <div class="projects-container">
+                <div class="row">
+                    <div class="project1">
+                        <img alt="portfolio" src="..\images\Portfolio.PNG" width="400" height="300" />
+                        <div class="fadedbox">
+                            <div class="title text"><a href="#home" style="color:white;"><strong>Portfolio Website
+                                        <br><br>
+                                        --Web</strong></a></div>
+                        </div>
+                    </div>
+
+                    <div class="project2">
+                        <img alt="covid-19" src="../images/covidnews2.webp" width="400" height="300" />
+                        <div class="fadedbox">
+                            <div class="title text"><a href="https://covidinfotracker.netlify.app" target="_blank"
+                                    style="color:white;"><strong>Covid-19 Tracker <br><br> --Web</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="project3">
+                        <img alt="taxinakupre" src="./images/logo.jpg" width="330" height="200" />
+                        <div class="fadedbox">
+                            <div class="title text"><a href="https://www.taxinakipre.com" target="_blank"
+                                    style="color:white;"><strong>Taxi Services <br><br>
+                                        --Web</strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-section">
+            <h2 id="skills-desc" class="entity-title section-title">Tech Stack</h2>
+            <p>Here is my favourite Tech Stack, languages and frameworks that I use every day in most of my projects.
+                <span style='font-size:20px;'>&#128640;</span>
+            </p>
+            <div class="skills-holder">
+                <div class="skill-holder">
+                    <img alt="htmlcss" src="..\images\htmlcss.png" id="css_icon" align="middle" />
+                    <span id="css">HTML5 & CSS3</span>
+                </div>
+                <div class="skill-holder">
+                    <img alt="javascript" src="..\images\java.png" id="java_icon" align="middle" />
+                    <span id="java">Java</span>
+                </div>
+                <div class="skill-holder">
+                    <img alt="java" src="..\images\javascript.png" id="js_icon" align="middle" />
+                    <span id="js">Javascript</span>
+                </div>
+                <div class="skill-holder">
+                    <img alt="sql" src="..\images\sql.png" id="sql_icon" align="middle" />
+                    <span id="sql">T-SQL</span>
+                </div>
+                <div class="skill-holder">
+                    <img alt="sql" src="..\images\c++.png" id="cplusplus_icon" align="middle" />
+                    <span id="cplusplus">C++</span>
+                </div>
+                <div class="skill-holder">
+                    <img alt="Dotnet C#" src="..\images\dotnet.jpeg" id="dotnet_icon" align="middle" />
+                    <span id="Dotnet">Dotnet C#</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="contact-section">
+            <h3>Get in touch</h3>
+            <div class="contact-instrunctions">
+                <p id="intrunctions">If you want to ask me anything just fill the fields in the form and drop me your
+                    message. <br> Be sure that your question is not answered already in <a href="./pages/FAQs.html"
+                        class="faqslink">FAQs</a> page.<br><br> If you find something ugly
+                    in my page, your recommendations are always welcome.<span style='font-size:20px;'>&#128512;</span>
+                </p>
+                <p id="details">
+                    <h6>Location</h6>Larnaca, Cyprus <br>
+                    <h6>Email</h6> kokozides.g@outlook.com <br>
+                    <h6>Website</h6>www.gregocode.com <br>
+                    <h6>Role</h6> Junior Software Developer
+                </p>
+            </div>
+            <div class="contact-form">
+                <form id="contact-input" accept-charset="utf-8" action="https://formspree.io/kokozides.g@outlook.com"
+                    method="POST">
+                    <h4>Contact me today, and get reply with in 24 hours!</h4>
+                    <fieldset id="inputName">
+                        <input placeholder="Your name" type="text" name="_name" tabindex="1" required />
+                    </fieldset>
+                    <fieldset id="inputEmail">
+                        <input placeholder="Your Email Address" type="email" name="_replyto" tabindex="2" required />
+                    </fieldset>
+                    <fieldset id="inputSubject">
+                        <input placeholder="Subject" type="text" name="_subject" tabindex="3" optional />
+                    </fieldset>
+                    <fieldset id="inputMessage">
+                        <textarea placeholder="Type your message here..." type="message" name="_message" tabindex="4"
+                            required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button type="submit" id="contact-submit" data-submit="...Sending">SEND</button>
+                    </fieldset>
+                </form>
+            </div>
+
+            <footer>
+                <p>© gregocode.com 2020 | Developed by me</p>
+            </footer>
+
+    </section>
+
+</body>
+<script src="..\functions\sendMessage.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,364 @@
+#projects {
+  height: 100vh;
+  /* Use vh as a fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  margin-top: 220px;
+}
+
+.project-section {
+  cursor: default;
+  box-sizing: border-box;
+}
+
+.project-section h1 {
+  width: 100%;
+  font-weight: 200;
+  font-size: 85px;
+  color: #0582ca;
+  text-align: center;
+}
+
+.project-section h5 {
+  font-size: 16px;
+  margin-top: 2em;
+  margin-left: 10em;
+  float: left;
+  ;
+  color: white;
+  width: auto;
+}
+
+.project-section h1,
+h5 {
+  display: block;
+  columns: 1;
+}
+
+.project1 {
+  cursor: pointer;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  text-align: center;
+  padding: 30px;
+  width: 20%;
+  display: inline-block;
+  margin-left: 10.5rem;
+  margin-top: 15rem;
+}
+
+.project1 .fadedbox {
+  background-color: #11a8ff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+  font-weight: 50px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 340px;
+  height: 240px;
+  padding: 30px;
+}
+
+.project1:hover .fadedbox {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.project1 .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+.project1 .title {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+
+.project1:hover .title,
+.project1:focus .title {
+  opacity: 1;
+  transform: translateY(20px);
+  -webkit-transform: translateY(90px);
+}
+
+.project1:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.project2 {
+  cursor: pointer;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  text-align: center;
+  padding: 30px;
+  margin-top: 10px;
+  float: right;
+  width: 20%;
+  margin-right: 30.5rem;
+  margin-top: 15rem;
+}
+
+.project2 .fadedbox {
+  background-color: #11a8ff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+  font-weight: 50px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 340px;
+  height: 240px;
+  padding: 30px;
+}
+
+.project2:hover .fadedbox {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.project2 .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+.project2 .title {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+
+.project2:hover .title,
+.project2:focus .title {
+  opacity: 1;
+  transform: translateY(20px);
+  -webkit-transform: translateY(90px);
+}
+
+.project2:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.project3 {
+  cursor: pointer;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  text-align: center;
+  padding: 30px;
+  margin-top: 10px;
+  float: right;
+  width: 20%;
+  margin-right: 30.5rem;
+  margin-top: 15rem;
+}
+
+.project3 .fadedbox {
+  background-color: #11a8ff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+  font-weight: 50px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 340px;
+  height: 240px;
+  padding: 30px;
+}
+
+.project3:hover .fadedbox {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.project3 .text {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+.project3 .title {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.3s;
+}
+
+.project3:hover .title,
+.project3:focus .title {
+  opacity: 1;
+  transform: translateY(20px);
+  -webkit-transform: translateY(90px);
+}
+
+.project3:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.project3 {
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1380px) {
+
+  .nickname {
+    display: none;
+  }
+
+  .projects-container {
+    height: 100%;
+    display: block;
+  }
+
+  .project1,
+  .project2,
+  .project3 {
+    height: 250px;
+    width: 350px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+  }
+
+  .project1 .fadedbox,
+  .project2 .fadedbox,
+  .project3 .fadedbox {
+    height: 250px;
+    width: 350px;
+  }
+
+  .project1 .title,
+  .project2 .title,
+  .project3 .title {
+    font-size: 1.5em;
+  }
+
+  .project1:hover .title,
+  .project1:focus .title,
+  .project2:hover .title,
+  .project2:focus .title,
+  .project3:hover .title,
+  .project3:focus .title {
+    opacity: 1;
+    transform: translateY(10px);
+    -webkit-transform: translateY(40px);
+  }
+
+
+  .project1:focus,
+  .project2:focus,
+  .project3:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+  .project3 {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+
+  .nickname {
+    display: none;
+  }
+
+  .projects-container {
+    height: 100%;
+    display: block;
+  }
+
+  .project1,
+  .project2,
+  .project3 {
+    height: 150px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+  }
+
+  .project1 .fadedbox,
+  .project2 .fadedbox {
+    height: 250px;
+    width: 250px;
+  }
+
+  .project3 .fadedbox {
+    height: 200px;
+    width: 220px;
+  }
+
+  .project1 .title,
+  .project2 .title,
+  .project3 .title {
+    font-size: 2.0em;
+  }
+
+  .project1:hover .title,
+  .project1:focus .title,
+  .project2:hover .title,
+  .project2:focus .title,
+  .project3:hover .title,
+  .project3:focus .title {
+    opacity: 1;
+    transform: translateY(10px);
+    -webkit-transform: translateY(40px);
+  }
+
+  .project1:focus,
+  .project2:focus,
+  .project3:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .project3 {
+    margin-bottom: 20px;
+  }
+}

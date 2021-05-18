@@ -1,0 +1,103 @@
+#skills {
+  height: 100%;
+  width: 100%;
+}
+
+.skills-section {
+  cursor: default;
+  box-sizing: border-box;
+  margin-left: 5em;
+}
+
+
+.skills-section h2.section-title {
+  font-size: 32px;
+  line-height: 100%;
+  margin: 5rem 0 1rem 1.5rem;
+  padding-top: 10px;
+  text-align: left;
+  color: #0582ca;
+}
+
+.skills-section>p {
+  padding: 0;
+  margin-top: 2em;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.skills-holder {
+  margin-top: 5em;
+  margin-left: 10px;
+  display: block;
+}
+
+.skill-holder>img {
+  margin: auto;
+  max-height: 60px;
+  max-width: 80px;
+}
+
+.skill-holder>span {
+  font-size: 22px;
+  flex: 2;
+  margin: auto;
+}
+
+.skill-holder>img,
+.skill-holder>span {
+  margin: 30px;
+  margin-top: 10px
+}
+
+
+@media screen and (max-width: 769px) {
+
+  .skills-section {
+    height: 100%;
+    margin-top: 5em;
+  }
+
+  .skills-section h2 {
+    margin-left: 0em;
+    text-align: left;
+  }
+
+  .skills-section p {
+    margin: 10px 0;
+  }
+
+  .skill-text {
+    width: 100%;
+  }
+
+  .skills-holder {
+    column-count: 1;
+    top: 30%;
+    left: 30%;
+  }
+
+  .skill-holder>img {
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  .skill-holder>span {
+    font-size: 14px;
+    flex: 2;
+  }
+
+  .skill-holder>img,
+  .skill-holder>span {
+    margin: 10px;
+    margin-top: 10px;
+  }
+
+
+  #skills-desc {
+    word-wrap: break-word;
+    text-align: center;
+    display: block;
+  }
+
+}

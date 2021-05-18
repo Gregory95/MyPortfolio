@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Ubuntu');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.over-x {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #052D53;
+    color: white;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #363638;
+    overflow: hidden;
+    transition: .5s all ease-in-out;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+    z-index: 100;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+header .navbar-brand {
+    display: block;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    box-sizing: border-box;
+    color: blue;
+    margin: 0;
+}
+
+header .navbar-brand a {
+    font-size: 25px;
+    text-decoration: none;
+    color: lightblue;
+    border-bottom: 4px solid inherit;
+}
+
+header .navbar-brand a:hover {
+    /*  border-bottom: 4px solid #ff2828;
+*/
+    padding: 6px 0;
+    transition: 0.01s ease;
+    text-shadow: 1px 1px lightblue;
+}
+
+header .navbar-brand span#grigoris {
+    font-size: 35px;
+    color: #fff;
+    background: #5ec1ff;
+    border-radius: 45%;
+    padding: 0 5px;
+}
+
+.hm-menu {
+    display: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    font-weight: 200;
+    display: block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .3s all ease-in-out;
+    text-align: center;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #ff2828;
+}
+
+h1.entity-title {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 120px;
+    letter-spacing: .3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.faq {
+    text-align: left;
+    padding-left: 20px;
+    word-wrap: break-word;
+    display: block;
+    border-color: inherit;
+}
+
+.question {
+    color: #0582ca;
+    font-size: 1.8rem;
+    font-weight: 100px;
+    margin: 20px;
+}
+
+.answer {
+    color: white;
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+    background-color: inherit;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width:991px) {
+    .container {
+        flex-direction: column;
+    }
+    .left {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hm-menu {
+        position: relative;
+        display: block;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+    }
+    .hm-menu span {
+        position: absolute;
+        height: 2px;
+        background-color: #ffffff;
+        right: 0;
+        transition: .5s all ease-in-out;
+        border-radius: 1px;
+    }
+    .hm-menu span:nth-child(1) {
+        width: 40%;
+        top: 10px;
+    }
+    .hm-menu span:nth-child(2) {
+        width: 60%;
+        top: calc(50% - 1px);
+    }
+    .hm-menu span:nth-child(3) {
+        width: 50%;
+        top: calc(100% - 12px);
+    }
+    header nav ul {
+        opacity: 0;
+    }
+    header nav ul li {
+        display: block;
+    }
+    header nav ul li a {
+        padding: 20px 40px;
+        font-size: 22px;
+    }
+    .h-100 {
+        height: 100%;
+    }
+    header.h-100 ul {
+        opacity: 1;
+    }
+    .right {
+        position: relative;
+        height: calc(100vh - 60px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s all ease-in-out;
+    }
+    .right::after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        top: 10px;
+        background-color: #ff2828;
+    }
+    .hm-100 {
+        width: 100%!important;
+    }
+    .hero-text {
+        width: 80%;
+    }
+    .item-3 .item {
+        width: 100%;
+    }
+    .item-3 .item p {
+        text-align: center;
+    }
+    .item-3 {
+        flex-direction: column;
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+ <nav>
+      <div class="navbar-brand">
+   <!--    <div class="tooltip"> -->
+        <a href="#home"><span id="grigoris">G</span>rigoris</a>
+<!--           <span class="tooltiptext">Home Page</span>
+      </div> -->
+     </div>
+      <div class="toggle">
+        <i class="fa fa-bars menu" aria-hidden="true"></i>
+      </div>
+        <ul>
+            <li><a href="#home" id="toHome">Home</a></li>
+            <li><a href="#about" id="toAbout">About</a></li>
+            <li><a href="#projects" id="toProjects">Projects</a></li>
+            <li><a href="#skills" id="toSkills">Skills</a></li>
+            <li><a href="#contact" id="toContact">Contact</a></li>
+            <li><a href="./pages/FAQs.html" id="toFaqs">FAQs</a></li>
+        </ul>
+    </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+         $('.menu').click(function(){
+          $('ul').toggleClass('active')
+          })
+         })
+    </script>
